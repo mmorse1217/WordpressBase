@@ -1,0 +1,108 @@
+/*
+Theme Name: Buffalo Skating Club	
+Theme URI: http://www.japeacock.com
+Author: Joseph Peacock
+Author URI: http://www.japeacock.com
+Description: Custom WordPress theme for Buffalo Skating Club.
+
+/******************************************************** */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+.brand {
+	margin-top: 15px;
+}
+
+#main-menu li {
+	display:inline;
+}
+
+.navbar-relative-top .navbar-inner {
+	position:fixed;
+	width:100%;
+}
+
+#main-menu {
+	height: 72px;
+}
+
+#main-menu li {
+	padding-top: 15px;
+}
+
+#main-menu a {
+	-webkit-transition: color .3s;
+	-moz-transition: color .3s;
+	-o-transition: color .3s;
+	-ms-transition: color .3s;
+	transition: color .3s;
+}
+
+#main-menu a:hover {
+	color:#171d25;
+}
+
+.mastheadmain {
+	padding-top: 70px;
+	background:url(img/masthead.png);
+	height: 450px;
+	background-position: center;
+}
+
+.mastheadmain .heading {
+	padding-top: 10%;
+	color:#444;
+}
+
+.mastheadmain .bg {
+	font-size: 2em;
+	font-weight: 300;
+	background-color: rgba(0, 0, 0, .55);
+	color:#eee;
+	float: left;
+	padding: 0 10px 0 10px;
+	height:40px;
+	clear: both;
+	margin: 0 0 10px 0;
+}
+
+.mastheadmain .invisbut {
+	border: 2px solid #aaa;
+	float:left;
+	padding:7px 20px;
+	color:#444;
+	font-size: .85em;
+	text-transform: uppercase;
+	font-weight: bold;
+	-webkit-transition: border 0.5s;
+	-moz-transition: border 0.5s;
+	-o-transition: border 0.5s;
+	-ms-transition: border 0.5s;
+	transition: border 0.5s;
+	clear: both;
+}
+
+.mastheadmain .invisbut:hover {
+	border: 2px solid #093e85;
+}
+
+.heading {
+	margin-left: 0px;
+}
+
+.btn {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background-repeat: none;
+	text-shadow: none;
+	background-image: none;
+}
+
+.upinto {
+	background-color: white;
+	padding:10px 20px;
+	border-radius: 2px;
+}
