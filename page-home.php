@@ -24,18 +24,18 @@ get_header(); ?>
   <div class="row-fluid">
     <div class="span4">
       <?php
-if ( function_exists( 'dynamic_sidebar' ) ) dynamic_sidebar( "home-left" );
-?>
-    </div>
-    <div class="span4">
-      <?php
-if ( function_exists( 'dynamic_sidebar' ) ) dynamic_sidebar( "home-middle" );
-?>
-    </div>
-    <div class="span4">
-      <?php
-if ( function_exists( 'dynamic_sidebar' ) ) dynamic_sidebar( "home-right" );
-?>
+        if ( function_exists( 'dynamic_sidebar' ) ) dynamic_sidebar( "home-left" );
+        ?>
+            </div>
+            <div class="span4">
+              <?php
+        if ( function_exists( 'dynamic_sidebar' ) ) dynamic_sidebar( "home-middle" );
+        ?>
+            </div>
+            <div class="span4">
+              <?php
+        if ( function_exists( 'dynamic_sidebar' ) ) dynamic_sidebar( "home-right" );
+        ?>
     </div>
   </div>
 </div><!-- /.marketing -->

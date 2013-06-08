@@ -23,6 +23,9 @@ define('BOOTSTRAPWP_VERSION', '.90');
 if ( ! isset( $content_width ) )
   $content_width = 770; /* pixels */
 
+
+require_once('admin/options.php');
+
 /*
 | -------------------------------------------------------------------
 | Setup Theme
@@ -115,36 +118,6 @@ function bootstrapwp_widgets_init() {
     'before_title' => '<h4 class="widget-title">',
     'after_title' => '</h4>',
   ) );
-
-  register_sidebar(array(
-    'name' => 'Home Left',
-    'id'   => 'home-left',
-    'description'   => 'Left textbox on homepage',
-    'before_widget' => '<div id="%1$s" class="widget %2$s">',
-    'after_widget'  => '</div>',
-    'before_title'  => '<h2>',
-    'after_title'   => '</h2>'
-  ));
-
-    register_sidebar(array(
-    'name' => 'Home Middle',
-    'id'   => 'home-middle',
-    'description'   => 'Middle textbox on homepage',
-    'before_widget' => '<div id="%1$s" class="widget %2$s">',
-    'after_widget'  => '</div>',
-    'before_title'  => '<h2>',
-    'after_title'   => '</h2>'
-  ));
-
-    register_sidebar(array(
-    'name' => 'Home Right',
-    'id'   => 'home-right',
-    'description'   => 'Right textbox on homepage',
-    'before_widget' => '<div id="%1$s" class="widget %2$s">',
-    'after_widget'  => '</div>',
-    'before_title'  => '<h2>',
-    'after_title'   => '</h2>'
-  ));
 
     register_sidebar(array(
     'name' => 'Footer Content',
