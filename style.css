@@ -3,7 +3,16 @@ Theme Name: CORE Env
 Theme URI: http://www.japeacock.com
 Author: Joseph Peacock
 Author URI: http://www.japeacock.com
+Version
 Description: Custom WordPress theme for CORE Env.
 
 /******************************************************** */
 
+.page-content{
+	padding: 10px 10px 10px 10px;
+	text-align:center;
+}
+
+.logo{
+	width:100px;
+}
